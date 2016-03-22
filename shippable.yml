@@ -11,3 +11,10 @@ go:
 build:
   ci:
     - go version
+
+integrations:
+  notifications:
+    - integrationName: skadjaskd
+      type: sjadkn
+      recipients: 
+        - ansdfbsdjffsdb
