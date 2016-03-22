@@ -1,20 +1,17 @@
-
 # Language setting
 language: go
 
 # Version number
 go:
-  - 1.1
+  #- 1.1
   - 1.2
   - 1.3
-
+matrix:
+  exclude:
+    - go: 1.2
+    
+  include:
+    - go: 1.1
 build:
-  ci:
-    - go version
-
-integrations:
-  notifications:
-    - integrationName: skadjaskd
-      type: sjadkn
-      recipients: 
-        - ansdfbsdjffsdb
+  ci:   
+    - go version     
