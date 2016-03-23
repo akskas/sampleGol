@@ -28,5 +28,5 @@ hub:
     - integrationName: email
       type: email
       recipients: 
-        - shiphitchcock2@gmail.com
+        - ankulkumar001@gmail.com
       #  - vidya@shippable.com
